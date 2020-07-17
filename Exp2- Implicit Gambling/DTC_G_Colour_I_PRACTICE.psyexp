@@ -1,0 +1,904 @@
+<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="1.83.04">
+  <Settings>
+    <Param name="Show mouse" updates="None" val="True" valType="bool"/>
+    <Param name="Data filename" updates="None" val="'data/%s_%s_%s' %(expInfo['participant'], &quot;Colour Implicit&quot;, expInfo['date'])" valType="code"/>
+    <Param name="Monitor" updates="None" val="testMonitor" valType="str"/>
+    <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
+    <Param name="color" updates="None" val="$[0,0,0]" valType="str"/>
+    <Param name="Window size (pixels)" updates="None" val="[1366, 768]" valType="code"/>
+    <Param name="Full-screen window" updates="None" val="True" valType="bool"/>
+    <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
+    <Param name="Experiment info" updates="None" val="{u'Session': u'1', u'participant': u''}" valType="code"/>
+    <Param name="Save csv file" updates="None" val="False" valType="bool"/>
+    <Param name="Show info dlg" updates="None" val="True" valType="bool"/>
+    <Param name="Save wide csv file" updates="None" val="True" valType="bool"/>
+    <Param name="Save psydat file" updates="None" val="True" valType="bool"/>
+    <Param name="expName" updates="None" val="Gambling Task- Line version (2)" valType="str"/>
+    <Param name="logging level" updates="None" val="exp" valType="code"/>
+    <Param name="blendMode" updates="None" val="avg" valType="str"/>
+    <Param name="Save excel file" updates="None" val="False" valType="bool"/>
+    <Param name="Units" updates="None" val="use prefs" valType="str"/>
+    <Param name="Save log file" updates="None" val="True" valType="bool"/>
+    <Param name="Screen" updates="None" val="1" valType="num"/>
+  </Settings>
+  <Routines>
+    <Routine name="bridge">
+      <TextComponent name="text_14">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="text_14" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="text" updates="constant" val="" valType="str"/>
+        <Param name="stopVal" updates="constant" val="2" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="[0, 0]" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="Pause">
+      <TextComponent name="text_8">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="text_8" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="text" updates="constant" val="" valType="str"/>
+        <Param name="stopVal" updates="constant" val="0.5" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="[0, 0]" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="end">
+      <TextComponent name="text_15">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="text_15" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="text" updates="constant" val="End of practice" valType="str"/>
+        <Param name="stopVal" updates="constant" val="2" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="[0, 0]" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="feedback">
+      <ImageComponent name="image">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="image" valType="code"/>
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="pos" updates="constant" val="[-0.1, 0.1]" valType="code"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$image_correct" valType="str"/>
+        <Param name="size" updates="constant" val="[0.25, 0.25]" valType="code"/>
+      </ImageComponent>
+      <TextComponent name="text_7">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="text_7" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="set every repeat" val="$feedback_colour" valType="str"/>
+        <Param name="text" updates="set every repeat" val="$score_feedback" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="[-0.1, -0.1]" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.10" valType="code"/>
+      </TextComponent>
+      <CodeComponent name="code_3">
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="name" updates="None" val="code_3" valType="code"/>
+        <Param name="Begin Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="thisExp.addData('Score2',Score2)" valType="extendedCode"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="sound_alone">
+      <SoundComponent name="sound_2">
+        <Param name="sound" updates="set every repeat" val="$audio" valType="str"/>
+        <Param name="volume" updates="constant" val="1" valType="code"/>
+        <Param name="name" updates="None" val="sound_2" valType="code"/>
+        <Param name="stopVal" updates="constant" val="6" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+      </SoundComponent>
+      <TextComponent name="text_9">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="text_9" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="text" updates="constant" val="" valType="str"/>
+        <Param name="stopVal" updates="constant" val="2" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="[0, 0]" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="6" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="sound_file">
+      <SoundComponent name="sound_1">
+        <Param name="sound" updates="constant" val="sounds\List1.wav" valType="str"/>
+        <Param name="volume" updates="constant" val="1" valType="code"/>
+        <Param name="name" updates="None" val="sound_1" valType="code"/>
+        <Param name="stopVal" updates="constant" val="10" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+      </SoundComponent>
+    </Routine>
+    <Routine name="explicit">
+      <PolygonComponent name="polygon_7">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="fillColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="polygon_7" valType="code"/>
+        <Param name="fillColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="[-0.3, 0]" valType="code"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineWidth" updates="constant" val="1" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="lineColor" updates="constant" val="$[-1,-1,-1]" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="lineColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="nVertices" updates="constant" val="3" valType="int"/>
+        <Param name="size" updates="constant" val="[0.25, 0.25]" valType="code"/>
+      </PolygonComponent>
+      <PolygonComponent name="polygon_8">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="fillColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="polygon_8" valType="code"/>
+        <Param name="fillColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="[0.3, 0]" valType="code"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineWidth" updates="constant" val="1" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="lineColor" updates="constant" val="$[-1,-1,-1]" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="lineColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="nVertices" updates="constant" val="100" valType="int"/>
+        <Param name="size" updates="constant" val="[0.25, 0.25]" valType="code"/>
+      </PolygonComponent>
+      <MouseComponent name="mouse_4">
+        <Param name="name" updates="None" val="mouse_4" valType="code"/>
+        <Param name="timeRelativeTo" updates="constant" val="routine" valType="str"/>
+        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutineOnPress" updates="constant" val="False" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="saveMouseState" updates="None" val="final" valType="str"/>
+      </MouseComponent>
+      <CodeComponent name="code_2">
+        <Param name="Begin Experiment" updates="constant" val="MetacognitiveChoice= &quot;&quot;&amp;#10;score_feedback= &quot;&quot;&amp;#10;feedback_colour= [1,1,1]&amp;#10;MetaforGamma=999&amp;#10;" valType="extendedCode"/>
+        <Param name="name" updates="None" val="code_2" valType="code"/>
+        <Param name="Begin Routine" updates="constant" val="MetacognitiveChoice= &quot;&quot;&amp;#10;score_feedback= &quot;&quot;&amp;#10;MetaforGamma=999&amp;#10;&amp;#10;" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="if mouse.isPressedIn(polygon_7):&amp;#10;            MetacognitiveChoice= &quot;HighRisk&quot;&amp;#10;            MetaforGamma=1&amp;#10;&amp;#10;elif mouse.isPressedIn(polygon_8):&amp;#10;            MetacognitiveChoice= &quot;LowRisk&quot;&amp;#10;            MetaforGamma=0&amp;#10;else:&amp;#10;            MetacognitiveChoice= &quot;Missed&quot;&amp;#10;            Score=Score-0.30&amp;#10;            score_feedback= &quot;-30p&quot;&amp;#10;            feedback_colour= [1,-1,-1]&amp;#10;            image_correct= &quot;incorrect.png&quot;&amp;#10;&amp;#10;if MetacognitiveChoice== &quot;HighRisk&quot; and trial_performance== &quot;Correct&quot;:&amp;#10;            Score=Score+0.30&amp;#10;            score_feedback= &quot;+30p&quot;&amp;#10;            feedback_colour= [-1,1,-1]&amp;#10;&amp;#10;if MetacognitiveChoice== &quot;LowRisk&quot; and trial_performance== &quot;Incorrect&quot;:&amp;#10;            Score=Score-0.10&amp;#10;            score_feedback= &quot;-10p&quot;&amp;#10;            feedback_colour= [1,-1,-1]&amp;#10;&amp;#10;if MetacognitiveChoice== &quot;HighRisk&quot; and trial_performance== &quot;Incorrect&quot;:&amp;#10;            Score=Score-0.30&amp;#10;            score_feedback= &quot;-30p&quot;&amp;#10;            feedback_colour= [1,-1,-1]&amp;#10;&amp;#10;if MetacognitiveChoice== &quot;LowRisk&quot; and trial_performance== &quot;Correct&quot;:&amp;#10;            MetacognitieAccuuracy= &quot;Inaccurate&quot;&amp;#10;            Score=Score+0.10&amp;#10;            score_feedback= &quot;+10p&quot;&amp;#10;            feedback_colour= [-1,1,-1]&amp;#10;&amp;#10;DecimalScore= '{0:.2f}'.format(Score)&amp;#10;Score2= Score1 + Score3+str(DecimalScore)&amp;#10;&amp;#10;thisExp.addData('MetacognitiveChoice',MetacognitiveChoice)&amp;#10;thisExp.addData('ObjectLevelForGamma',ObjectLevelForGamma)&amp;#10;thisExp.addData('MetaforGamma',MetaforGamma)" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each Frame" updates="constant" val="if mouse.isPressedIn(polygon_7):&amp;#10;            continueRoutine=False&amp;#10;&amp;#10;elif mouse.isPressedIn(polygon_8):&amp;#10;            continueRoutine=False&amp;#10;" valType="extendedCode"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="Inr">
+      <TextComponent name="text_5">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="text_5" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="text" updates="constant" val="Please click the mouse to begin.... " valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="[0, 0]" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+      </TextComponent>
+      <MouseComponent name="mouse_2">
+        <Param name="name" updates="None" val="mouse_2" valType="code"/>
+        <Param name="timeRelativeTo" updates="constant" val="routine" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutineOnPress" updates="constant" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="saveMouseState" updates="None" val="final" valType="str"/>
+      </MouseComponent>
+    </Routine>
+    <Routine name="instructions_3">
+      <TextComponent name="text_10">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="text_10" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="text" updates="constant" val="End of part 2&amp;#10;&amp;#10;Ask experimenter for instructions for part 3&amp;#10;&amp;#10;press space to continue" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="[0, 0]" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_3">
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_3" valType="code"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="trial">
+      <CodeComponent name="code">
+        <Param name="Begin Experiment" updates="constant" val="num_correct_discriminations= 0&amp;#10;num_incorrect_discriminations= 0&amp;#10;num_missed_discriminations= 0&amp;#10;&amp;#10;trial_total= 0&amp;#10;trial_performance= &quot;&quot;&amp;#10;ObjectLevelForGamma=999&amp;#10;&amp;#10;Score=  2.00&amp;#10;Score1= 'Prize:  '&amp;#10;Score3= u&quot;\u00A3&quot;&amp;#10;DecimalScore= '{0:.2f}'.format(Score)&amp;#10;Score2= Score1 + Score3+str(DecimalScore)&amp;#10;&amp;#10;t=0&amp;#10;t2=int(t)&amp;#10;t3=4-t2&amp;#10;&amp;#10;SCORE= &quot;&quot;&amp;#10;colour_feedback=&quot;&quot;&amp;#10;clickTime= 9999&amp;#10;&amp;#10;runorskip=0&amp;#10;clicked=0&amp;#10;&amp;#10;" valType="extendedCode"/>
+        <Param name="name" updates="None" val="code" valType="code"/>
+        <Param name="Begin Routine" updates="constant" val="&amp;#10;colour1= colour_initial&amp;#10;colour2= colour_initial&amp;#10;&amp;#10;clickTime= 9999&amp;#10;box_selected= (&quot;&quot;)&amp;#10;&amp;#10;runorskip=0&amp;#10;clicked=0&amp;#10;ObjectLevelForGamma=999" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="if box_selected== correct:&amp;#10;    trial_performance= &quot;Correct&quot;&amp;#10;    ObjectLevelForGamma=1&amp;#10;    num_correct_discriminations= num_correct_discriminations+1&amp;#10;    trial_total= trial_total+1&amp;#10;    image_correct= &quot;correct.png&quot;&amp;#10;    runorskip=1&amp;#10;&amp;#10;if box_selected!= correct and clicked==0:&amp;#10;    trial_performance= &quot;Missed&quot;&amp;#10;    num_missed_discriminations= num_missed_discriminations+1&amp;#10;    trial_total= trial_total+1&amp;#10;    image_correct= &quot;incorrect.png&quot;&amp;#10;    Score=Score-0.30&amp;#10;    score_feedback= &quot;-30p&quot;&amp;#10;    feedback_colour= [1,-1,-1]&amp;#10;&amp;#10;if box_selected!= correct and clicked==1:&amp;#10;    trial_performance= &quot;Incorrect&quot;&amp;#10;    ObjectLevelForGamma=0&amp;#10;    num_incorrect_discriminations= num_incorrect_discriminations +1&amp;#10;    trial_total= trial_total+1&amp;#10;    image_correct= &quot;incorrect.png&quot;&amp;#10;    runorskip=1&amp;#10;&amp;#10;&amp;#10;thisExp.addData('box_selected',box_selected)&amp;#10;thisExp.addData('trial_total',trial_total)&amp;#10;thisExp.addData('trial_performance',trial_performance)&amp;#10;thisExp.addData('num_correct_discriminations',num_correct_discriminations)&amp;#10;thisExp.addData('num_incorrect_discriminations',num_incorrect_discriminations)&amp;#10;&amp;#10;DecimalScore= '{0:.2f}'.format(Score)&amp;#10;Score2= Score1 + Score3+str(DecimalScore)" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each Frame" updates="constant" val="t2=int(t)&amp;#10;t3=4-t2&amp;#10;&amp;#10;if mouse.isPressedIn(square):&amp;#10;            colour1= colour_selected&amp;#10;            box_selected= &quot;ONE&quot;&amp;#10;            clickTime= trialClock.getTime()&amp;#10;            clicked=1&amp;#10;&amp;#10;if mouse.isPressedIn(square_2):&amp;#10;            box_selected= &quot;TWO&quot;&amp;#10;            colour2= colour_selected&amp;#10;            clickTime= trialClock.getTime()&amp;#10;            clicked=1&amp;#10;&amp;#10;timer=clickTime+1.5&amp;#10;&amp;#10;if t &gt; timer:&amp;#10;    continueRoutine= False&amp;#10;&amp;#10;" valType="extendedCode"/>
+      </CodeComponent>
+      <TextComponent name="text_2">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="text_2" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="$[-1.000,-1.000,1.000]" valType="str"/>
+        <Param name="text" updates="set every repeat" val=" $Score2" valType="str"/>
+        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="[0.90, -0.9]" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="1" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="code"/>
+      </TextComponent>
+      <MouseComponent name="mouse">
+        <Param name="name" updates="None" val="mouse" valType="code"/>
+        <Param name="timeRelativeTo" updates="constant" val="routine" valType="str"/>
+        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutineOnPress" updates="constant" val="False" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="1" valType="code"/>
+        <Param name="saveMouseState" updates="None" val="on click" valType="str"/>
+      </MouseComponent>
+      <PolygonComponent name="square">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="fillColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="square" valType="code"/>
+        <Param name="fillColor" updates="constant" val="" valType="str"/>
+        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="[-0.3, 0]" valType="code"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineWidth" updates="constant" val="4" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="lineColor" updates="set every frame" val="$colour1" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="1" valType="code"/>
+        <Param name="lineColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="nVertices" updates="constant" val="4" valType="int"/>
+        <Param name="size" updates="constant" val="[0.5, 0.5]" valType="code"/>
+      </PolygonComponent>
+      <PolygonComponent name="square_2">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="fillColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="square_2" valType="code"/>
+        <Param name="fillColor" updates="constant" val="" valType="str"/>
+        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="[0.3, 0]" valType="code"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineWidth" updates="constant" val="4" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="lineColor" updates="set every frame" val="$colour2" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="1" valType="code"/>
+        <Param name="lineColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="nVertices" updates="constant" val="4" valType="int"/>
+        <Param name="size" updates="constant" val="[0.5, 0.5]" valType="code"/>
+      </PolygonComponent>
+      <TextComponent name="text_3">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="text_3" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="$[-1.000,-1.000,-1.000]" valType="str"/>
+        <Param name="text" updates="set every frame" val="$t3" valType="str"/>
+        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="[0.9, 0.9]" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="1" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="code"/>
+      </TextComponent>
+      <PolygonComponent name="line">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="fillColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="line" valType="code"/>
+        <Param name="fillColor" updates="set every repeat" val="$[-1,-1,$ONE]" valType="str"/>
+        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="[-0.3, 0]" valType="code"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineWidth" updates="constant" val="1" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="lineColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="1" valType="code"/>
+        <Param name="lineColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="nVertices" updates="constant" val="4" valType="int"/>
+        <Param name="size" updates="constant" val="[0.25, 0.25]" valType="code"/>
+      </PolygonComponent>
+      <PolygonComponent name="line2">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="fillColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="line2" valType="code"/>
+        <Param name="fillColor" updates="set every repeat" val="$[-1,-1,$TWO]" valType="str"/>
+        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="[0.3, 0]" valType="code"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineWidth" updates="constant" val="1" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="lineColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="1" valType="code"/>
+        <Param name="lineColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="nVertices" updates="constant" val="4" valType="int"/>
+        <Param name="size" updates="constant" val="[0.25, 0.25]" valType="code"/>
+      </PolygonComponent>
+    </Routine>
+    <Routine name="BetweenTrials">
+      <TextComponent name="text">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="text" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="text" updates="constant" val="" valType="str"/>
+        <Param name="stopVal" updates="constant" val="0.75" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="[0, 0]" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="Intro">
+      <TextComponent name="text_6">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="text_6" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="text" updates="constant" val="Please click the mouse to begin...." valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="[0, 0]" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+      </TextComponent>
+      <MouseComponent name="mouse_3">
+        <Param name="name" updates="None" val="mouse_3" valType="code"/>
+        <Param name="timeRelativeTo" updates="constant" val="routine" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutineOnPress" updates="constant" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="saveMouseState" updates="None" val="final" valType="str"/>
+      </MouseComponent>
+    </Routine>
+    <Routine name="trial2">
+      <CodeComponent name="code_4">
+        <Param name="Begin Experiment" updates="constant" val="num_correct_discriminations= 0&amp;#10;num_incorrect_discriminations= 0&amp;#10;num_missed_discriminations= 0&amp;#10;&amp;#10;trial_total= 0&amp;#10;trial_performance= &quot;&quot;&amp;#10;ObjectLevelForGamma=999&amp;#10;&amp;#10;Score=  2.00&amp;#10;Score1= 'Prize:  '&amp;#10;Score3= u&quot;\u00A3&quot;&amp;#10;DecimalScore= '{0:.2f}'.format(Score)&amp;#10;Score2= Score1 + Score3+str(DecimalScore)&amp;#10;&amp;#10;t=0&amp;#10;t2=int(t)&amp;#10;t3=4-t2&amp;#10;&amp;#10;SCORE= &quot;&quot;&amp;#10;colour_feedback=&quot;&quot;&amp;#10;clickTime= 9999&amp;#10;&amp;#10;runorskip=0&amp;#10;clicked=0&amp;#10;&amp;#10;#import the shuffle routine&amp;#10;from random import shuffle&amp;#10;&amp;#10;#At the end of this routine, kick off a new clock&amp;#10;timerClock = core.Clock()&amp;#10;&amp;#10;#Set up the sounds and parameters&amp;#10;all_sounds = [&amp;#10;{&quot;id_num&quot;:&quot;1&quot;,&quot;path&quot;:&quot;Appalled_1.wav&quot;,&quot;duration&quot;:6,},&amp;#10;{&quot;id_num&quot;:&quot;2&quot;,&quot;path&quot;:&quot;Appealing_1.wav&quot;,&quot;duration&quot;:5,},&amp;#10;{&quot;id_num&quot;:&quot;3&quot;,&quot;path&quot;:&quot;Confronted_2.wav&quot;,&quot;duration&quot;:5,},&amp;#10;{&quot;id_num&quot;:&quot;4&quot;,&quot;path&quot;:&quot;Distaste_1.wav&quot;,&quot;duration&quot;:6,},&amp;#10;{&quot;id_num&quot;:&quot;5&quot;,&quot;path&quot;:&quot;Empathic_2.wav&quot;,&quot;duration&quot;:6,},&amp;#10;{&quot;id_num&quot;:&quot;6&quot;,&quot;path&quot;:&quot;Exonerated_2.wav&quot;,&quot;duration&quot;:6,},&amp;#10;{&quot;id_num&quot;:&quot;7&quot;,&quot;path&quot;:&quot;Grave_1.wav&quot;,&quot;duration&quot;:6,},&amp;#10;{&quot;id_num&quot;:&quot;8&quot;,&quot;path&quot;:&quot;Guarded_3.wav&quot;,&quot;duration&quot;:6,},&amp;#10;{&quot;id_num&quot;:&quot;9&quot;,&quot;path&quot;:&quot;Insincere_3.wav&quot;,&quot;duration&quot;:6,},&amp;#10;{&quot;id_num&quot;:&quot;10&quot;,&quot;path&quot;:&quot;Intimate_1.wav&quot;,&quot;duration&quot;:6,}&amp;#10;]&amp;#10;&amp;#10;sound_phase_complete = False&amp;#10;&amp;#10;#Start sound item for movie at couner 1 to help create data headings&amp;#10;sound_counter = 1" valType="extendedCode"/>
+        <Param name="name" updates="None" val="code_4" valType="code"/>
+        <Param name="Begin Routine" updates="constant" val="&amp;#10;colour1= colour_initial&amp;#10;colour2= colour_initial&amp;#10;&amp;#10;clickTime= 9999&amp;#10;box_selected= (&quot;&quot;)&amp;#10;soundclick1= 9999&amp;#10;soundTime1=9999&amp;#10;&amp;#10;runorskip=0&amp;#10;clicked=0&amp;#10;ObjectLevelForGamma=999&amp;#10;&amp;#10;SoundTime=trialClock.getTime()&amp;#10;&amp;#10;ObjectForGamma=999&amp;#10;MetaForGamma=999&amp;#10;&amp;#10;#Shuffle the sounds&amp;#10;shuffle(all_sounds)&amp;#10;&amp;#10;#Top slice 10 sounds and remove from old array&amp;#10;#current_slice = all_sounds[0:1]&amp;#10;#del all_sounds[0:1]&amp;#10;&amp;#10;#Initialize flag to say we are not playing and no text&amp;#10;&amp;#10;text_phase = False&amp;#10;&amp;#10;#else:&amp;#10;    #Set a flag to say we are not going to do this routine&amp;#10;    #See &quot;Each Frame&quot; for it in action.&amp;#10;#    doRoutine = False" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="if box_selected== correct:&amp;#10;    trial_performance= &quot;Correct&quot;&amp;#10;    ObjectLevelForGamma=1&amp;#10;    num_correct_discriminations= num_correct_discriminations+1&amp;#10;    trial_total= trial_total+1&amp;#10;    image_correct= &quot;correct.png&quot;&amp;#10;    runorskip=1&amp;#10;&amp;#10;if box_selected!= correct and clicked==0:&amp;#10;    trial_performance= &quot;Missed&quot;&amp;#10;    num_missed_discriminations= num_missed_discriminations+1&amp;#10;    trial_total= trial_total+1&amp;#10;    image_correct= &quot;incorrect.png&quot;&amp;#10;    Score=Score-0.30&amp;#10;    score_feedback= &quot;-30p&quot;&amp;#10;    feedback_colour= [1,-1,-1]&amp;#10;&amp;#10;if box_selected!= correct and clicked==1:&amp;#10;    trial_performance= &quot;Incorrect&quot;&amp;#10;    ObjectLevelForGamma=0&amp;#10;    num_incorrect_discriminations= num_incorrect_discriminations +1&amp;#10;    trial_total= trial_total+1&amp;#10;    image_correct= &quot;incorrect.png&quot;&amp;#10;    runorskip=1&amp;#10;&amp;#10;&amp;#10;thisExp.addData('box_selected',box_selected)&amp;#10;thisExp.addData('trial_total',trial_total)&amp;#10;thisExp.addData('trial_performance',trial_performance)&amp;#10;thisExp.addData('num_correct_discriminations',num_correct_discriminations)&amp;#10;thisExp.addData('num_incorrect_discriminations',num_incorrect_discriminations)&amp;#10;thisExp.addData('clicktime',clickTime)&amp;#10;thisExp.addData('soundclick1',soundclick1)&amp;#10;thisExp.addData('soundTime1',soundTime1)&amp;#10;&amp;#10;&amp;#10;DecimalScore= '{0:.2f}'.format(Score)&amp;#10;Score2= Score1 + Score3+str(DecimalScore)" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each Frame" updates="constant" val="t2=int(t)&amp;#10;t3=4-t2&amp;#10;&amp;#10;if mouse.isPressedIn(square):&amp;#10;            colour1= colour_selected&amp;#10;            box_selected= &quot;ONE&quot;&amp;#10;            clickTime= trialClock.getTime()&amp;#10;            clicked=1&amp;#10;&amp;#10;if mouse.isPressedIn(square_2):&amp;#10;            box_selected= &quot;TWO&quot;&amp;#10;            colour2= colour_selected&amp;#10;            clickTime= trialClock.getTime()&amp;#10;            clicked=1&amp;#10;&amp;#10;timer=clickTime+1.5&amp;#10;&amp;#10;if t &gt; timer:&amp;#10;    continueRoutine= False&amp;#10;&amp;#10;&amp;#10;#Should we now play a sound and can we?&amp;#10;if sound_phase_complete == False:&amp;#10;&amp;#10;    if len(all_sounds) &gt; 0:&amp;#10;        #Pop off one of the sounds (which removes it from the array)&amp;#10;        sound_item = all_sounds.pop()&amp;#10;&amp;#10;        #Set up the sound&amp;#10;        playing_sound = sound.Sound(value=sound_item[&quot;path&quot;])&amp;#10;&amp;#10;        #Set up text on text objects, but not show yet&amp;#10;        #lefttext.text = sound_item[&quot;text1&quot;]&amp;#10;        #righttext.text = sound_item[&quot;text2&quot;]&amp;#10;&amp;#10;        #Kick off the timer&amp;#10;        timerClock.reset()&amp;#10;        playing_sound.play()&amp;#10;        SoundTime=trialClock.getTime()&amp;#10;        sound_phase_complete = True&amp;#10;&amp;#10;        #Store sound item sequence&amp;#10;        thisExp.addData('soundplaying', sound_item[&quot;path&quot;])&amp;#10;        thisExp.addData('soundplaying_routine', &quot;trial&quot;)&amp;#10;        thisExp.addData('SoundTime',SoundTime)&amp;#10;&amp;#10;elif sound_phase_complete == True:&amp;#10;&amp;#10;    #If we are at 6 second duration or past, stop sound and show text&amp;#10;&amp;#10;    if timerClock.getTime() &gt;= 8:&amp;#10;            playing_sound.stop()&amp;#10;            #lefttext.color = [0,0,0]&amp;#10;            #righttext.color = [0,0,0]&amp;#10;&amp;#10;            #Kick off the timer again&amp;#10;            timerClock.reset()&amp;#10;&amp;#10;            #Reset flags&amp;#10;            sound_phase_complete = False&amp;#10;            text_phase = False&amp;#10;&amp;#10;            #Hide text objects&amp;#10;            #lefttext.color = [0,0,0]&amp;#10;            #righttext.color = [0,0,0]&amp;#10;&amp;#10;            #Increment counter&amp;#10;            sound_counter += 1&amp;#10;" valType="extendedCode"/>
+      </CodeComponent>
+      <TextComponent name="text_11">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="text_11" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="$[-1.000,-1.000,1.000]" valType="str"/>
+        <Param name="text" updates="set every repeat" val=" $Score2" valType="str"/>
+        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="[0.90, -0.9]" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="1" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="code"/>
+      </TextComponent>
+      <MouseComponent name="mouse_5">
+        <Param name="name" updates="None" val="mouse_5" valType="code"/>
+        <Param name="timeRelativeTo" updates="constant" val="routine" valType="str"/>
+        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutineOnPress" updates="constant" val="False" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="1" valType="code"/>
+        <Param name="saveMouseState" updates="None" val="on click" valType="str"/>
+      </MouseComponent>
+      <PolygonComponent name="square_3">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="fillColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="square_3" valType="code"/>
+        <Param name="fillColor" updates="constant" val="" valType="str"/>
+        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="[-0.3, 0]" valType="code"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineWidth" updates="constant" val="4" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="lineColor" updates="set every frame" val="$colour1" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="1" valType="code"/>
+        <Param name="lineColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="nVertices" updates="constant" val="4" valType="int"/>
+        <Param name="size" updates="constant" val="[0.5, 0.5]" valType="code"/>
+      </PolygonComponent>
+      <PolygonComponent name="square_4">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="fillColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="square_4" valType="code"/>
+        <Param name="fillColor" updates="constant" val="" valType="str"/>
+        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="[0.3, 0]" valType="code"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineWidth" updates="constant" val="4" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="lineColor" updates="set every frame" val="$colour2" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="1" valType="code"/>
+        <Param name="lineColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="nVertices" updates="constant" val="4" valType="int"/>
+        <Param name="size" updates="constant" val="[0.5, 0.5]" valType="code"/>
+      </PolygonComponent>
+      <TextComponent name="text_12">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="text_12" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="$[-1.000,-1.000,-1.000]" valType="str"/>
+        <Param name="text" updates="set every frame" val="$t3" valType="str"/>
+        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="[0.9, 0.9]" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="1" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="code"/>
+      </TextComponent>
+      <PolygonComponent name="line_2">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="fillColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="line_2" valType="code"/>
+        <Param name="fillColor" updates="set every repeat" val="$[-1,-1,$ONE]" valType="str"/>
+        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="[-0.3, 0]" valType="code"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineWidth" updates="constant" val="1" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="lineColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="1" valType="code"/>
+        <Param name="lineColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="nVertices" updates="constant" val="4" valType="int"/>
+        <Param name="size" updates="constant" val="[0.25, 0.25]" valType="code"/>
+      </PolygonComponent>
+      <PolygonComponent name="line2_2">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="fillColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="line2_2" valType="code"/>
+        <Param name="fillColor" updates="set every repeat" val="$[-1,-1,$TWO]" valType="str"/>
+        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="[0.3, 0]" valType="code"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineWidth" updates="constant" val="1" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="lineColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="1" valType="code"/>
+        <Param name="lineColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="nVertices" updates="constant" val="4" valType="int"/>
+        <Param name="size" updates="constant" val="[0.25, 0.25]" valType="code"/>
+      </PolygonComponent>
+    </Routine>
+    <Routine name="Instructions_2">
+      <TextComponent name="text_4">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="text_4" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="text" updates="constant" val="End of part 1&amp;#10;&amp;#10;Ask experimenter for instructions of part 2&amp;#10;&amp;#10;press space to continue" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="[0, 0]" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_2">
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_2" valType="code"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="explicit2">
+      <PolygonComponent name="polygon">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="fillColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="polygon" valType="code"/>
+        <Param name="fillColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="[-0.3, 0]" valType="code"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineWidth" updates="constant" val="1" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="lineColor" updates="constant" val="$[-1,-1,-1]" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="lineColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="nVertices" updates="constant" val="3" valType="int"/>
+        <Param name="size" updates="constant" val="[0.25, 0.25]" valType="code"/>
+      </PolygonComponent>
+      <PolygonComponent name="polygon_9">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="fillColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="polygon_9" valType="code"/>
+        <Param name="fillColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="[0.3, 0]" valType="code"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineWidth" updates="constant" val="1" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="lineColor" updates="constant" val="$[-1,-1,-1]" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="lineColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="nVertices" updates="constant" val="100" valType="int"/>
+        <Param name="size" updates="constant" val="[0.25, 0.25]" valType="code"/>
+      </PolygonComponent>
+      <MouseComponent name="mouse_6">
+        <Param name="name" updates="None" val="mouse_6" valType="code"/>
+        <Param name="timeRelativeTo" updates="constant" val="routine" valType="str"/>
+        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutineOnPress" updates="constant" val="False" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="saveMouseState" updates="None" val="final" valType="str"/>
+      </MouseComponent>
+      <CodeComponent name="code_5">
+        <Param name="Begin Experiment" updates="constant" val="MetacognitiveChoice= &quot;&quot;&amp;#10;score_feedback= &quot;&quot;&amp;#10;feedback_colour= [1,1,1]&amp;#10;MetaforGamma=999&amp;#10;&amp;#10;clickTime2=&quot;&quot;" valType="extendedCode"/>
+        <Param name="name" updates="None" val="code_5" valType="code"/>
+        <Param name="Begin Routine" updates="constant" val="MetacognitiveChoice= &quot;&quot;&amp;#10;score_feedback= &quot;&quot;&amp;#10;MetaforGamma=999&amp;#10;&amp;#10;SoundTime=trialClock.getTime()&amp;#10;soundclick2=&quot;&quot;&amp;#10;&amp;#10;#Shuffle the sounds&amp;#10;shuffle(all_sounds)&amp;#10;&amp;#10;#Top slice 10 sounds and remove from old array&amp;#10;#current_slice = all_sounds[0:1]&amp;#10;#del all_sounds[0:1]&amp;#10;&amp;#10;#Initialize flag to say we are not playing and no text&amp;#10;&amp;#10;text_phase = False&amp;#10;&amp;#10;#else:&amp;#10;    #Set a flag to say we are not going to do this routine&amp;#10;    #See &quot;Each Frame&quot; for it in action.&amp;#10;#    doRoutine = False" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="if mouse.isPressedIn(polygon_7):&amp;#10;            MetacognitiveChoice= &quot;HighRisk&quot;&amp;#10;            MetaforGamma=1&amp;#10;&amp;#10;elif mouse.isPressedIn(polygon_8):&amp;#10;            MetacognitiveChoice= &quot;LowRisk&quot;&amp;#10;            MetaforGamma=0&amp;#10;else:&amp;#10;            MetacognitiveChoice= &quot;Missed&quot;&amp;#10;            Score=Score-0.30&amp;#10;            score_feedback= &quot;-30p&quot;&amp;#10;            feedback_colour= [1,-1,-1]&amp;#10;            image_correct= &quot;incorrect.png&quot;&amp;#10;&amp;#10;if MetacognitiveChoice== &quot;HighRisk&quot; and trial_performance== &quot;Correct&quot;:&amp;#10;            Score=Score+0.30&amp;#10;            score_feedback= &quot;+30p&quot;&amp;#10;            feedback_colour= [-1,1,-1]&amp;#10;&amp;#10;if MetacognitiveChoice== &quot;LowRisk&quot; and trial_performance== &quot;Incorrect&quot;:&amp;#10;            Score=Score-0.10&amp;#10;            score_feedback= &quot;-10p&quot;&amp;#10;            feedback_colour= [1,-1,-1]&amp;#10;&amp;#10;if MetacognitiveChoice== &quot;HighRisk&quot; and trial_performance== &quot;Incorrect&quot;:&amp;#10;            Score=Score-0.30&amp;#10;            score_feedback= &quot;-30p&quot;&amp;#10;            feedback_colour= [1,-1,-1]&amp;#10;&amp;#10;if MetacognitiveChoice== &quot;LowRisk&quot; and trial_performance== &quot;Correct&quot;:&amp;#10;            MetacognitieAccuuracy= &quot;Inaccurate&quot;&amp;#10;            Score=Score+0.10&amp;#10;            score_feedback= &quot;+10p&quot;&amp;#10;            feedback_colour= [-1,1,-1]&amp;#10;&amp;#10;DecimalScore= '{0:.2f}'.format(Score)&amp;#10;Score2= Score1 + Score3+str(DecimalScore)&amp;#10;&amp;#10;thisExp.addData('MetacognitiveChoice',MetacognitiveChoice)&amp;#10;thisExp.addData('ObjectLevelForGamma',ObjectLevelForGamma)&amp;#10;thisExp.addData('MetaforGamma',MetaforGamma)&amp;#10;thisExp.addData('clickTime2',clickTime2)&amp;#10;thisExp.addData('soundclick2',soundclick2)&amp;#10;thisExp.addData('soundTime2',soundTime2)" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each Frame" updates="constant" val="if mouse.isPressedIn(polygon_7):&amp;#10;            clickTime2= trialClock.getTime()&amp;#10;            soundclick2=sound_item[&quot;path&quot;]&amp;#10;            soundTime2=timerClock.getTime()&amp;#10;            continueRoutine=False&amp;#10;&amp;#10;elif mouse.isPressedIn(polygon_8):&amp;#10;            clickTime2= trialClock.getTime()&amp;#10;            soundclick2=sound_item[&quot;path&quot;]&amp;#10;            soundTime2=timerClock.getTime()&amp;#10;            continueRoutine=False&amp;#10;&amp;#10;#Should we now play a sound and can we?&amp;#10;if sound_phase_complete == False:&amp;#10;&amp;#10;    if len(all_sounds) &gt; 0:&amp;#10;        #Pop off one of the sounds (which removes it from the array)&amp;#10;        sound_item = all_sounds.pop()&amp;#10;&amp;#10;        #Set up the sound&amp;#10;        playing_sound = sound.Sound(value=sound_item[&quot;path&quot;])&amp;#10;&amp;#10;        #Set up text on text objects, but not show yet&amp;#10;        #lefttext.text = sound_item[&quot;text1&quot;]&amp;#10;        #righttext.text = sound_item[&quot;text2&quot;]&amp;#10;&amp;#10;        #Kick off the timer&amp;#10;        timerClock.reset()&amp;#10;        playing_sound.play()&amp;#10;        SoundTime=trialClock.getTime()&amp;#10;        sound_phase_complete = True&amp;#10;&amp;#10;        #Store sound item sequence&amp;#10;        thisExp.addData('soundplaying', sound_item[&quot;path&quot;])&amp;#10;        thisExp.addData('soundplaying_routine', &quot;explicit&quot;)&amp;#10;        thisExp.addData('SoundTime',SoundTime)&amp;#10;&amp;#10;elif sound_phase_complete == True:&amp;#10;&amp;#10;    #If we are at 6 second duration or past, stop sound and show text&amp;#10;&amp;#10;    if timerClock.getTime() &gt;= 8:&amp;#10;            playing_sound.stop()&amp;#10;            #lefttext.color = [0,0,0]&amp;#10;            #righttext.color = [0,0,0]&amp;#10;&amp;#10;            #Kick off the timer again&amp;#10;            timerClock.reset()&amp;#10;&amp;#10;            #Reset flags&amp;#10;            sound_phase_complete = False&amp;#10;            text_phase = False&amp;#10;&amp;#10;            #Hide text objects&amp;#10;            #lefttext.color = [0,0,0]&amp;#10;            #righttext.color = [0,0,0]&amp;#10;&amp;#10;            #Increment counter&amp;#10;            sound_counter += 1" valType="extendedCode"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="feedback2">
+      <ImageComponent name="image_2">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="image_2" valType="code"/>
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="pos" updates="constant" val="[-0.1, 0.1]" valType="code"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$image_correct" valType="str"/>
+        <Param name="size" updates="constant" val="[0.25, 0.25]" valType="code"/>
+      </ImageComponent>
+      <TextComponent name="text_13">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="text_13" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="set every repeat" val="$feedback_colour" valType="str"/>
+        <Param name="text" updates="set every repeat" val="$score_feedback" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="[-0.1, -0.1]" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.10" valType="code"/>
+      </TextComponent>
+      <CodeComponent name="code_6">
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="name" updates="None" val="code_6" valType="code"/>
+        <Param name="Begin Routine" updates="constant" val="&amp;#10;#Shuffle the sounds&amp;#10;shuffle(all_sounds)&amp;#10;&amp;#10;#Top slice 10 sounds and remove from old array&amp;#10;#current_slice = all_sounds[0:1]&amp;#10;#del all_sounds[0:1]&amp;#10;&amp;#10;#Initialize flag to say we are not playing and no text&amp;#10;&amp;#10;text_phase = False&amp;#10;&amp;#10;#else:&amp;#10;    #Set a flag to say we are not going to do this routine&amp;#10;    #See &quot;Each Frame&quot; for it in action.&amp;#10;#    doRoutine = False" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="thisExp.addData('Score2',Score2)" valType="extendedCode"/>
+        <Param name="Each Frame" updates="constant" val="#Should we now play a sound and can we?&amp;#10;if sound_phase_complete == False:&amp;#10;&amp;#10;    if len(all_sounds) &gt; 0:&amp;#10;        #Pop off one of the sounds (which removes it from the array)&amp;#10;        sound_item = all_sounds.pop()&amp;#10;&amp;#10;        #Set up the sound&amp;#10;        playing_sound = sound.Sound(value=sound_item[&quot;path&quot;])&amp;#10;&amp;#10;        #Set up text on text objects, but not show yet&amp;#10;        #lefttext.text = sound_item[&quot;text1&quot;]&amp;#10;        #righttext.text = sound_item[&quot;text2&quot;]&amp;#10;&amp;#10;        #Kick off the timer&amp;#10;        timerClock.reset()&amp;#10;        playing_sound.play()&amp;#10;        sound_phase_complete = True&amp;#10;&amp;#10;        #Store sound item sequence&amp;#10;        thisExp.addData('soundplaying', sound_item[&quot;path&quot;])&amp;#10;        thisExp.addData('soundplaying_routine', &quot;feedback&quot;)&amp;#10;        thisExp.addData('SoundTime',SoundTime)&amp;#10;&amp;#10;elif sound_phase_complete == True:&amp;#10;&amp;#10;    #If we are at 6 second duration or past, stop sound and show text&amp;#10;&amp;#10;    if timerClock.getTime() &gt;= 8:&amp;#10;            playing_sound.stop()&amp;#10;            #lefttext.color = [0,0,0]&amp;#10;            #righttext.color = [0,0,0]&amp;#10;&amp;#10;            #Kick off the timer again&amp;#10;            timerClock.reset()&amp;#10;&amp;#10;            #Reset flags&amp;#10;            sound_phase_complete = False&amp;#10;            text_phase = False&amp;#10;&amp;#10;            #Hide text objects&amp;#10;            #lefttext.color = [0,0,0]&amp;#10;            #righttext.color = [0,0,0]&amp;#10;&amp;#10;            #Increment counter&amp;#10;            sound_counter += 1" valType="extendedCode"/>
+      </CodeComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="Intro"/>
+    <Routine name="Pause"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="conditionsFile" updates="None" val="BlueParameters_Practise.xlsx" valType="str"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="conditions" updates="None" val="[{u'colour_initial': [0, 0, 0], u'colour_selected': [0, 170, 0], u'TWO': 0.10300000000000004, u'ONE': 0.553, u'DIFFERENCE': 0.45, u'correct': u'ONE'}, {u'colour_initial': [0, 0, 0], u'colour_selected': [0, 170, 0], u'TWO': 0.51257, u'ONE': 0.515, u'DIFFERENCE': 0.00243, u'correct': u'ONE'}, {u'colour_initial': [0, 0, 0], u'colour_selected': [0, 170, 0], u'TWO': 0.5080000000000001, u'ONE': 0.527, u'DIFFERENCE': 0.01899999999999994, u'correct': u'ONE'}, {u'colour_initial': [0, 0, 0], u'colour_selected': [0, 170, 0], u'TWO': 0.501, u'ONE': 0.48200000000000004, u'DIFFERENCE': 0.01899999999999994, u'correct': u'TWO'}, {u'colour_initial': [0, 0, 0], u'colour_selected': [0, 170, 0], u'TWO': 0.6400000000000001, u'ONE': 0.669, u'DIFFERENCE': 0.028999999999999942, u'correct': u'ONE'}, {u'colour_initial': [0, 0, 0], u'colour_selected': [0, 170, 0], u'TWO': 0.473, u'ONE': 0.602, u'DIFFERENCE': 0.129, u'correct': u'ONE'}, {u'colour_initial': [0, 0, 0], u'colour_selected': [0, 170, 0], u'TWO': 0.577, u'ONE': 0.12699999999999995, u'DIFFERENCE': 0.45, u'correct': u'TWO'}, {u'colour_initial': [0, 0, 0], u'colour_selected': [0, 170, 0], u'TWO': 0.58, u'ONE': 0.57692, u'DIFFERENCE': 0.00308, u'correct': u'TWO'}, {u'colour_initial': [0, 0, 0], u'colour_selected': [0, 170, 0], u'TWO': 0.527, u'ONE': 0.4980000000000001, u'DIFFERENCE': 0.028999999999999942, u'correct': u'TWO'}, {u'colour_initial': [0, 0, 0], u'colour_selected': [0, 170, 0], u'TWO': 0.614, u'ONE': 0.485, u'DIFFERENCE': 0.129, u'correct': u'TWO'}]" valType="str"/>
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <LoopInitiator loopType="TrialHandler" name="trials_2">
+      <Param name="conditionsFile" updates="None" val="" valType="str"/>
+      <Param name="name" updates="None" val="trials_2" valType="code"/>
+      <Param name="isTrials" updates="None" val="False" valType="bool"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="$runorskip" valType="code"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+    </LoopInitiator>
+    <Routine name="explicit"/>
+    <LoopTerminator name="trials_2"/>
+    <Routine name="feedback"/>
+    <LoopTerminator name="trials"/>
+    <Routine name="Instructions_2"/>
+    <LoopInitiator loopType="TrialHandler" name="trials_3">
+      <Param name="conditionsFile" updates="None" val="Practice_audio.xlsx" valType="str"/>
+      <Param name="name" updates="None" val="trials_3" valType="code"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="conditions" updates="None" val="[{u'audio': u'Appalled_2.wav'}, {u'audio': u'Confronted_1.wav'}, {u'audio': u'Guarded_1.wav'}, {u'audio': u'Resentful_1.wav'}, {u'audio': u'Uneasy_1.wav'}]" valType="str"/>
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+    </LoopInitiator>
+    <Routine name="sound_alone"/>
+    <LoopTerminator name="trials_3"/>
+    <Routine name="instructions_3"/>
+    <LoopInitiator loopType="TrialHandler" name="trials_5">
+      <Param name="conditionsFile" updates="None" val="BlueParameters_Practise.xlsx" valType="str"/>
+      <Param name="name" updates="None" val="trials_5" valType="code"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="conditions" updates="None" val="[{u'colour_initial': [0, 0, 0], u'colour_selected': [0, 170, 0], u'TWO': 0.10300000000000004, u'ONE': 0.553, u'DIFFERENCE': 0.45, u'correct': u'ONE'}, {u'colour_initial': [0, 0, 0], u'colour_selected': [0, 170, 0], u'TWO': 0.51257, u'ONE': 0.515, u'DIFFERENCE': 0.00243, u'correct': u'ONE'}, {u'colour_initial': [0, 0, 0], u'colour_selected': [0, 170, 0], u'TWO': 0.5080000000000001, u'ONE': 0.527, u'DIFFERENCE': 0.01899999999999994, u'correct': u'ONE'}, {u'colour_initial': [0, 0, 0], u'colour_selected': [0, 170, 0], u'TWO': 0.501, u'ONE': 0.48200000000000004, u'DIFFERENCE': 0.01899999999999994, u'correct': u'TWO'}, {u'colour_initial': [0, 0, 0], u'colour_selected': [0, 170, 0], u'TWO': 0.6400000000000001, u'ONE': 0.669, u'DIFFERENCE': 0.028999999999999942, u'correct': u'ONE'}, {u'colour_initial': [0, 0, 0], u'colour_selected': [0, 170, 0], u'TWO': 0.473, u'ONE': 0.602, u'DIFFERENCE': 0.129, u'correct': u'ONE'}, {u'colour_initial': [0, 0, 0], u'colour_selected': [0, 170, 0], u'TWO': 0.577, u'ONE': 0.12699999999999995, u'DIFFERENCE': 0.45, u'correct': u'TWO'}, {u'colour_initial': [0, 0, 0], u'colour_selected': [0, 170, 0], u'TWO': 0.58, u'ONE': 0.57692, u'DIFFERENCE': 0.00308, u'correct': u'TWO'}, {u'colour_initial': [0, 0, 0], u'colour_selected': [0, 170, 0], u'TWO': 0.527, u'ONE': 0.4980000000000001, u'DIFFERENCE': 0.028999999999999942, u'correct': u'TWO'}, {u'colour_initial': [0, 0, 0], u'colour_selected': [0, 170, 0], u'TWO': 0.614, u'ONE': 0.485, u'DIFFERENCE': 0.129, u'correct': u'TWO'}]" valType="str"/>
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+    </LoopInitiator>
+    <Routine name="trial2"/>
+    <LoopInitiator loopType="TrialHandler" name="trials_4">
+      <Param name="conditionsFile" updates="None" val="" valType="str"/>
+      <Param name="name" updates="None" val="trials_4" valType="code"/>
+      <Param name="isTrials" updates="None" val="False" valType="bool"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="$runorskip" valType="code"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+    </LoopInitiator>
+    <Routine name="explicit2"/>
+    <LoopTerminator name="trials_4"/>
+    <Routine name="feedback2"/>
+    <LoopTerminator name="trials_5"/>
+    <Routine name="bridge"/>
+    <Routine name="end"/>
+  </Flow>
+</PsychoPy2experiment>
